@@ -46,6 +46,9 @@ svg path{
     display: flex;
 }
 
+.attribution {
+font-size: 10px;
+}
 
 .main{
     display: flex;
