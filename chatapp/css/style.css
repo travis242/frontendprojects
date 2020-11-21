@@ -47,7 +47,7 @@ svg path{
 }
 
 div.attribution {
-font-size: 12px;
+    font-size: 15px;
 }
 
 .main{
@@ -144,7 +144,7 @@ font-size: 12px;
     align-self: flex-end;
     margin-top: 10px;
     margin-bottom: 10px;
-    animation: message 0.8s ease-in-out 6s backwards;
+    animation: message 0.8s ease-in-out 7s backwards;
 }
 
 .dog--pictures img{
@@ -304,26 +304,26 @@ font-size: 12px;
 .question1{
 
     transform: translateX(0%);
-    animation: message 0.8s ease-in-out 2s backwards;
+    animation: message 0.8s ease-in-out .5s backwards;
 }
 
 .question2{
     
     transform: translateX(0%);
-    animation: message 0.8s ease-in-out 4s backwards;
+    animation: message 0.8s ease-in-out 3s backwards;
 }
 
 .question3{
 
     transform: translateX(0%);
-    animation: message 0.8s ease-in-out 12s backwards;
+    animation: message 0.8s ease-in-out 13s backwards;
 
 }
 
 .answer1{
 
     transform: translateX(0%);
-    animation: message 0.8s ease-in-out 8s backwards;
+    animation: message 0.8s ease-in-out 9s backwards;
 
 }
 
@@ -331,18 +331,18 @@ font-size: 12px;
 .answer2{
 
     transform: translateX(0%);
-    animation: message 0.8s ease-in-out 10s backwards;
+    animation: message 0.8s ease-in-out 11s backwards;
 
 }
 
 .choice1{
     transform: rotate(360deg);
-    animation:choice 0.5s ease-out 14s backwards;
+    animation:choice 0.5s ease-out 16s backwards;
 }
 
 .choice2{
     transform: rotate(360deg);
-    animation:choice 0.5s ease-out 16s backwards;
+    animation:choice 0.5s ease-out 18s backwards;
 }
 
 

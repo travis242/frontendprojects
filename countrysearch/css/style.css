@@ -1,7 +1,7 @@
 :root {
   --font-family: 'Nunito Sans', sans-serif;
   --clr-elements: hsl(0, 0%, 100%);
-  --clr-background: hsl(0, 0%, 98%);
+  --clr-background: hsl(0deg 0% 95%);
   --clr-font: hsl(200, 15%, 8%);
   --clr-input: hsl(0, 0%, 52%);
 }
@@ -24,6 +24,7 @@ input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
 input:-webkit-autofill:active {
+  box-shadow: 0 0 0 30px var(--clr-elements) inset !important;
   -webkit-box-shadow: 0 0 0 30px var(--clr-elements) inset !important;
   color: var(--clr-font);
 }
